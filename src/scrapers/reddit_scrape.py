@@ -10,6 +10,9 @@ print(page)
 
 parse = BeautifulSoup(page, "html.parser")
 
-
 # shreddit_comment = parse.find(id = "-post-rtjson-content")
 # print(shreddit_comment)
+
+import praw
+
+reddit = praw.reddit()
